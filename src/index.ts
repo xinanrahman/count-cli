@@ -8,8 +8,7 @@ import fsp from "fs/promises";
 
 const program = new Command();
 
-// Outputs the Count CLI header to console
-console.log(figlet.textSync("Count CLI"));
+program.addHelpText("before", figlet.textSync("Count CLI") + "\n");
 
 program
   .version("1.0.0")
