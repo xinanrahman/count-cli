@@ -1,15 +1,19 @@
 {
   "name": "count-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A readable CLI alternative to the Unix wc tool to count bytes, lines, words, and characters in plain text and source code files",
+  "main": "dist/index.js",
+  "bin": {
+    "count": "./dist/index.js"
+  },
   "scripts": {
-    "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Xinan Rahman",
   "license": "ISC",
+  "repository": "https://github.com/xinanrahman/count-cli",
+  "homepage": "https://github.com/xinanrahman/count-cli#readme",
   "devDependencies": {
     "@types/figlet": "^1.5.8",
     "@types/node": "^20.10.5",
