@@ -13,6 +13,8 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
+      - name: Check Node.js version
+        run: node -v
       - name: publish
         run: npm publish --access public
         env:
