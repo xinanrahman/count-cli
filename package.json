@@ -1,5 +1,5 @@
 {
-  "name": "count-cli",
+  "name": "readable-count-cli",
   "version": "1.0.0",
   "description": "A readable CLI alternative to the Unix wc tool to count bytes, lines, words, and characters in plain text and source code files",
   "main": "dist/index.js",
