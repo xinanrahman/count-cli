@@ -9,7 +9,10 @@
   "scripts": {
     "build": "npx tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
   "author": "Xinan Rahman",
   "license": "ISC",
   "repository": "https://github.com/xinanrahman/count-cli",
